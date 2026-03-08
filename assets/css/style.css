@@ -19,9 +19,9 @@ body {
 }
 
 header {
-    background-color: brown;
+    background-color: white;
     padding: 0;
-    box-shadow: 0 2px 5px maroon;
+    box-shadow: 0 2px 5px aqua;
 }
 
 nav {
@@ -34,7 +34,7 @@ nav {
 }
 
 .logo {
-    color: brown;
+    color: white aqua;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-menu a {
-    color: brown;
+    color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease;
@@ -117,7 +117,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: brown;
+    color: aqua;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -133,7 +133,7 @@ footer {
 }
 
 .footer-bottom p {
-    color: brown;
+    color: aqua;
     font-size: 0.9rem;
 }
 

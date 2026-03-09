@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: aqua;
     padding: 0;
     box-shadow: 0 2px 5px aqua;
 }
@@ -34,7 +34,7 @@ nav {
 }
 
 .logo {
-    color: white aqua;
+    color:  white;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -58,11 +58,11 @@ nav {
 }
 
 .nav-menu a:hover {
-    background-color: brown;
+    background-color: aqua;
 }
 
 .nav-menu a.active {
-    background-color: maroon;
+    background-color: blue;
 }
 
 
@@ -73,19 +73,19 @@ main {
 
 main h1 {
     font-size: 2.5rem;
-    color: maroon;
+    color: blue ;
     margin-bottom: 1rem;
 }
 
 main p {
     font-size: 1.1rem;
-    color: maroon;
+    color: blue;
     line-height: 1.6;
 }
 
 footer {
-    background-color: maroon;
-    color: brown;
+    background-color: aqua;
+    color: aqua;
     padding: 3rem 0 1rem;
     margin-top: auto;
 }
@@ -100,7 +100,7 @@ footer {
 .footer-section h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: maroon;
+    color: red;
 }
 
 .footer-section p {
@@ -117,23 +117,23 @@ footer {
 }
 
 .footer-section ul li a {
-    color: aqua;
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: maroon;
+    color: black;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid maroon;
+    border-top: 1px solid black;
 }
 
 .footer-bottom p {
-    color: aqua;
+    color: black;
     font-size: 0.9rem;
 }
 

@@ -31,13 +31,15 @@
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">Casa da Juventude Center</div>
             <ul class="nav-menu">
-                <li><a href="historia.html" class="active">História</a></li>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="historia.html">História</a></li>
                 <li><a href="cursos.html">Cursos</a></li>
                 <li><a href="atividades.html">Atividades</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
@@ -45,11 +47,53 @@
             </ul>
         </nav>
     </header>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
     <main>
         <div class="container">
-            <h1>Bem-vindo à Casa da Juventude Center</h1>
-            <p>Descubra nossa história, cursos, atividades, projetos e serviços.</p>
+            <!-- Carousel -->
+            <div id="carouselCasaJuventude" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCasaJuventude" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCasaJuventude" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselCasaJuventude" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="assets/images/banner1.jpg" class="d-block w-100" alt="Casa da Juventude Banner 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bem-vindo à Casa da Juventude Center</h5>
+                            <p>Promovendo educação e desenvolvimento para a juventude</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/images/banner2.jpg" class="d-block w-100" alt="Casa da Juventude Banner 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cursos e Formação Profissional</h5>
+                            <p>Descubra nossos cursos e atividades</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/images/banner3.jpg" class="d-block w-100" alt="Casa da Juventude Banner 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Infraestruturas Modernas</h5>
+                            <p>Espaços equipados para o seu desenvolvimento</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCasaJuventude" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCasaJuventude" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div class="welcome-section">
+                <h1>Bem-vindo à Casa da Juventude Center</h1>
+                <p>Descubra nossa história, cursos, atividades, projetos e serviços.</p>
+            </div>
         </div>
     </main>
 
@@ -82,5 +126,8 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
